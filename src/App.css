@@ -15,3 +15,7 @@
 .p2{
     @apply font-semibold text-2xl
 }
+
+.input{
+   @apply px-[13px] py-3 bg-white text-black rounded-[9px] font-medium text-[22px]
+}

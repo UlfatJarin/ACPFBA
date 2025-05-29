@@ -4,6 +4,7 @@ import Navbar from './Component/Navbar'
 import Banner from './Component/Banner'
 import Asociate from './Component/Asociate'
 import Info from './Component/Info'
+import Contactanos from './Component/Contactanos'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Banner/>
       <Asociate/>
       <Info/>
+      <Contactanos/>
     </div>
   )
 }
