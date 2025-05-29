@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+.h2{
+    @apply font-semibold text-3xl text-white text-center
+}
+
+.btn{
+    @apply text-center text-[22px] font-semibold bg-[#FE7C45] text-white
+}
+
+.p1{
+    @apply font-medium text-[22px]
+}
+
+.p2{
+    @apply font-semibold text-2xl
+}

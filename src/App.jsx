@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './Component/Navbar'
 import Banner from './Component/Banner'
 import Asociate from './Component/Asociate'
+import Info from './Component/Info'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Banner/>
       <Asociate/>
+      <Info/>
     </div>
   )
 }
