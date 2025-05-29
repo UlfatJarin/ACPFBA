@@ -15,8 +15,8 @@ const Banner = () => {
                 <div className=' text-right max-w-[636px] mt-[139px] mb-[70px]'>
                     <h1 className='mb-12 font-semibold text-4xl text-white'>Asoc. Civil de Preparadores Físicos de Basquetbol Argentino</h1>
                     <h5 className='font-medium text-lg text-white'>Buscamos promover el desarrollo profesional y la excelencia en la preparación física de nuestros atletas. Trabajamos para potenciar el rendimiento de los jugadores y contribuir al crecimiento de nuestro deporte nacional. ¡Unite y juntos llevemos el básquet argentino a otro nivel!</h5>
-                    <img className='absolute' src={Whatsapp} alt="" />
                 </div>
+                <img className='absolute right-1/12 bottom-1/12' src={Whatsapp} alt="" />
             </div>
         </Container>
     )
