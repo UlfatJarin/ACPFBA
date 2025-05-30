@@ -8,10 +8,9 @@ const Navbar = () => {
     <Container>
       <div className='max-w-[1096px] mx-auto  py-8 bg-black flex justify-between items-center'>
         <div>
-          <img src={Logo} alt="" />
-
+          <a href="/"><img src={Logo} alt="" /> </a>       
         </div>
-        <ul className='text-white flex gap-4.5 items-center'>
+        <ul className='text-white flex gap-4.5 items-center  md:visible'>
           <li>Inicio</li>
           <li>Contacto</li>
           <li>Tienda</li>
