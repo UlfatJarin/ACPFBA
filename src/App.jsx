@@ -11,7 +11,7 @@ import Login from './Component/Login'
 function App() {
 
   return (
-    <div className='bg-black px-[2%]'>
+    <div className='bg-black px-[4%]'>
       <Navbar/>
       <Banner/>
       <Asociate/>
