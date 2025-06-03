@@ -5,7 +5,7 @@ import player from '../assets/basket-player.png'
 const Contactanos = () => {
     return (
         <Container className='grid md:grid-cols-2 py-20 bg-black'>
-            <img className=' ' src={player} alt="" />
+            <img className='hidden md:flex ' src={player} alt="" />
             <div>
                 <form className='max-w-[528px] rounded-sm md:bg-[#272626] px-8 py-8 flex flex-col justify-end gap-4 md:gap-9 '>
                     <h2 className='h2'>Contactanos</h2>

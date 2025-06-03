@@ -24,7 +24,7 @@ const Login = () => {
                         <input id='Privacy' className='md:w-[28px] md:h-[28px]' type="checkbox" />
                         <label className='p1 text-white' htmlFor="Privacy">By continuing, you agree to the Terms of  Use and Privacy Policy</label>
                     </div>
-                    <button className=' btn py-1.5  md:px-[102px] border border-white rounded-xl mt-4  mx-auto '>Log in</button>
+                    <button className=' btn py-1.5 px-[102px] border border-white rounded-xl mt-4  mx-auto '>Log in</button>
                     <p className='font-medium text-lg text-white text-center'>Forget your password</p>
                     <div className='h-0.5 w-full bg-white mt-16 mb-7'></div>
                     <p className='text-center font-semibold text-xl text-white mb-4'>Or continue with</p>
@@ -39,7 +39,7 @@ const Login = () => {
 
             </div>
             <div>
-                <img src={box} alt="" />
+                <img className='hidden md:flex' src={box} alt="" />
             </div>
 
         </Container>
